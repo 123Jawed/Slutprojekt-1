@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Neuralt nätverk">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e1a"/><stop offset="1" stop-color="#1b1245"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#8b5cf6" stroke-opacity=".5" stroke-width="2">
+    <path d="M150 110L330 70M150 110L330 190M150 110L330 310M150 250L330 70M150 250L330 190M150 250L330 310M150 250L330 430M150 390L330 190M150 390L330 310M150 390L330 430"/>
+    <path d="M330 70L520 140M330 70L520 280M330 190L520 140M330 190L520 280M330 310L520 140M330 310L520 280M330 310L520 420M330 430L520 280M330 430L520 420"/>
+    <path d="M520 140L670 210M520 280L670 210M520 280L670 330M520 420L670 330"/>
+  </g>
+  <g fill="#22d3ee"><circle cx="150" cy="110" r="16"/><circle cx="150" cy="250" r="16"/><circle cx="150" cy="390" r="16"/></g>
+  <g fill="#8b5cf6"><circle cx="330" cy="70" r="16"/><circle cx="330" cy="190" r="16"/><circle cx="330" cy="310" r="16"/><circle cx="330" cy="430" r="16"/><circle cx="520" cy="140" r="16"/><circle cx="520" cy="280" r="16"/><circle cx="520" cy="420" r="16"/></g>
+  <g fill="#fff"><circle cx="670" cy="210" r="20"/><circle cx="670" cy="330" r="20"/></g>
+</svg>

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dator &amp; Robot – Från kretskort till framtid</title>
+    <meta
+      name="description"
+      content="En webbplats om datorns utveckling och robotarnas framtid."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Hoppa till innehåll</a>
+
+    <header class="site-header">
+      <a class="logo" href="#hem" aria-label="Dator och Robot, startsidan">
+        <span class="logo__dot" aria-hidden="true"></span>DATOR<span
+          class="logo__accent"
+          >/</span
+        >ROBOT
+      </a>
+      <nav aria-label="Huvudmeny">
+        <ul class="nav">
+          <li><a href="#datorn">Datorn</a></li>
+          <li><a href="#robotar">Robotar</a></li>
+          <li><a href="#galleri">Galleri</a></li>
+          <li><a href="#framtiden">Framtiden</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hem">
+        <div class="hero__text">
+          <p class="eyebrow">Teknik &amp; framtid</p>
+          <h1>När datorn fick <span class="gradient-text">kropp</span></h1>
+          <p class="lead">
+            Utforska resan från de första räknemaskinerna till dagens
+            intelligenta robotar – och vart tekniken är på väg härnäst.
+          </p>
+          <a class="btn" href="#datorn">Starta resan</a>
+        </div>
+        <figure class="hero__image">
+          <img
+            src="1.jpg"
+            width="800"
+            height="500"
+            alt="Illustration av en vänlig futuristisk robot med lysande ögon"
+          />
+        </figure>
+      </section>
+
+      <section id="datorn" class="section">
+        <h2>Datorns utveckling</h2>
+        <p class="section__intro">
+          Datorer har gått från rumsstora maskiner till små chip som får plats i
+          fickan.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <span class="card__year">1940-talet</span>
+            <h3>Första elektroniska datorerna</h3>
+            <p>
+              Maskiner som ENIAC fyllde hela rum och använde tusentals
+              elektronrör för att räkna.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card__year">1970-talet</span>
+            <h3>Mikroprocessorn</h3>
+            <p>
+              Hela datorns hjärna samlades på ett enda litet chip, vilket gjorde
+              persondatorn möjlig.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card__year">1990-talet</span>
+            <h3>Internet för alla</h3>
+            <p>
+              Webben kopplade ihop världen och förändrade hur vi lär, jobbar och
+              umgås.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card__year">Idag</span>
+            <h3>AI och molnet</h3>
+            <p>
+              Kraftfulla datorer i molnet tränar AI-modeller som kan se, tala
+              och fatta beslut.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="robotar" class="section section--split">
+        <figure>
+          <img
+            src="dator.svg"
+            width="800"
+            height="500"
+            loading="lazy"
+            alt="Stiliserat kretskort med ett lysande chip i mitten"
+          />
+          <figcaption>Ett chip är robotens hjärna.</figcaption>
+        </figure>
+        <div>
+          <h2>Vad är en robot?</h2>
+          <p>
+            En robot är en maskin som kan <strong>känna av</strong> sin
+            omgivning, <strong>tänka</strong> med hjälp av en dator och
+            <strong>agera</strong> med motorer och armar.
+          </p>
+          <ul class="checklist">
+            <li>
+              <strong>Sensorer</strong> – kameror och mikrofoner är robotens
+              sinnen.
+            </li>
+            <li>
+              <strong>Processor</strong> – datorn som tolkar informationen.
+            </li>
+            <li>
+              <strong>Aktuatorer</strong> – motorer som får roboten att röra
+              sig.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="galleri" class="section">
+        <h2>Galleri</h2>
+        <p class="section__intro">
+          Bläddra bland illustrationer om teknikens värld.
+        </p>
+
+        <div
+          class="slideshow"
+          role="region"
+          aria-roledescription="bildspel"
+          aria-label="Bildspel om dator och robot"
+        >
+          <div class="slides" aria-live="polite">
+            <figure class="slide is-active">
+              <img
+                src="robot.svg"
+                width="800"
+                height="500"
+                alt="Futuristisk robot med lysande ögon"
+              />
+              <figcaption>Den sociala roboten</figcaption>
+            </figure>
+            <figure class="slide">
+              <img
+                src="dator.svg"
+                width="800"
+                height="500"
+                loading="lazy"
+                alt="Kretskort med ett lysande chip"
+              />
+              <figcaption>Chipet – datorns hjärta</figcaption>
+            </figure>
+            <figure class="slide">
+              <img
+                src="arm.svg"
+                width="800"
+                height="500"
+                loading="lazy"
+                alt="Robotarm som plockar upp en kub"
+              />
+              <figcaption>Robotarmen i industrin</figcaption>
+            </figure>
+            <figure class="slide">
+              <img
+                src="natverk.svg"
+                width="800"
+                height="500"
+                loading="lazy"
+                alt="Neuralt nätverk av sammankopplade noder"
+              />
+              <figcaption>Neuralt nätverk – AI:ns byggstenar</figcaption>
+            </figure>
+          </div>
+          <div class="slideshow__controls">
+            <button
+              class="icon-btn"
+              id="prev"
+              type="button"
+              aria-label="Föregående bild"
+            >
+              &#8249;
+            </button>
+            <ol class="dots" id="dots" aria-label="Välj bild"></ol>
+            <button
+              class="icon-btn"
+              id="next"
+              type="button"
+              aria-label="Nästa bild"
+            >
+              &#8250;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="framtiden" class="section">
+        <h2>Framtiden</h2>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Hjälp i hemmet</h3>
+            <p>
+              Robotar som städar, lagar mat och hjälper äldre att klara
+              vardagen.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Säkrare arbeten</h3>
+            <p>
+              Robotar tar farliga uppgifter i gruvor, fabriker och
+              katastrofområden.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Etik och ansvar</h3>
+            <p>
+              Ju smartare maskinerna blir, desto viktigare blir regler,
+              integritet och rättvisa.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>2026 Dator &amp; Robot · Skolprojekt i Webbutveckling 1</p>
+    </footer>
+  </body>
+</html>

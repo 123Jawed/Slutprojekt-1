@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Robotarm">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1a2e"/><stop offset="1" stop-color="#2a1458"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fa0d6"/><stop offset="1" stop-color="#dbe4ff"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect y="430" width="800" height="70" fill="#0a0e1a"/>
+  <rect x="120" y="410" width="160" height="30" rx="8" fill="#6f7fb8"/>
+  <rect x="170" y="360" width="60" height="55" fill="url(#metal)"/>
+  <circle cx="200" cy="350" r="34" fill="#8b5cf6"/>
+  <path d="M200 350L330 190" stroke="url(#metal)" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="330" cy="190" r="28" fill="#22d3ee"/>
+  <path d="M330 190L520 250" stroke="url(#metal)" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="520" cy="250" r="22" fill="#8b5cf6"/>
+  <path d="M520 250V320M520 320H495M520 320H545" stroke="#dbe4ff" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <rect x="475" y="348" width="90" height="82" rx="8" fill="#22d3ee" opacity=".9"/>
+  <path d="M475 348L520 330L565 348" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="4"/>
+</svg>

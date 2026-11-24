@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Kretskort">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07162a"/><stop offset="1" stop-color="#16103a"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".8"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="250" r="200" fill="url(#glow)" opacity=".5"/>
+  <g fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path d="M0 120H220L290 190H330"/><path d="M0 250H300"/><path d="M0 380H220L290 310H330"/>
+    <path d="M800 120H580L510 190H470"/><path d="M800 250H500"/><path d="M800 380H580L510 310H470"/>
+    <path d="M400 0V150"/><path d="M400 500V350"/><path d="M300 0V110L340 150"/><path d="M500 500V390L460 350"/>
+  </g>
+  <g fill="#22d3ee"><circle cx="0" cy="120" r="8"/><circle cx="0" cy="250" r="8"/><circle cx="0" cy="380" r="8"/><circle cx="800" cy="120" r="8"/><circle cx="800" cy="250" r="8"/><circle cx="800" cy="380" r="8"/><circle cx="400" cy="0" r="8"/><circle cx="400" cy="500" r="8"/></g>
+  <rect x="320" y="170" width="160" height="160" rx="20" fill="#0a0e1a" stroke="#22d3ee" stroke-width="4"/>
+  <rect x="350" y="200" width="100" height="100" rx="12" fill="#8b5cf6" opacity=".85"/>
+  <path d="M375 250H425M400 225V275" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+</svg>
